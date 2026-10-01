@@ -1,0 +1,15 @@
+{
+  "questions": 300,
+  "challenges": 300,
+  "coquin": 30,
+  "files": [
+    "app.js",
+    "manifest.webmanifest",
+    "data.js",
+    "index.html",
+    "README_V6.md",
+    "sw.js",
+    "icons",
+    "style.css"
+  ]
+}
