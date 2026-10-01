@@ -20,3 +20,10 @@ Les données applicatives sont conservées dans le stockage local du navigateur/
 
 ## Appairage
 Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la clé, l'autre l'importe. Comparez l'empreinte affichée. Ne publiez jamais la clé dans le dépôt GitHub.
+
+
+## Correctif V6.1
+- Remplace les champs date natifs par des sélecteurs jour/mois/année/heure/minute.
+- Calendrier : toucher un jour préremplit les dates Du/Au.
+- Conserve les clés localStorage `nd6.*` et donc les données V6 existantes.
+- Cache PWA incrémenté vers `nous-deux-v6-2`.
