@@ -27,3 +27,10 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - Calendrier : toucher un jour préremplit les dates Du/Au.
 - Conserve les clés localStorage `nd6.*` et donc les données V6 existantes.
 - Cache PWA incrémenté vers `nous-deux-v6-2`.
+
+
+## V6.2 correctif iPhone
+- Safe areas iOS/Dynamic Island pour l'en-tête et le cadenas.
+- Zone tactile du cadenas agrandie à 48 px.
+- Import ND6 tolérant aux espaces et caractères invisibles du presse-papiers.
+- Diagnostic ND6 détaillé sans modifier les clés nd6.* ni les données existantes.
