@@ -29,8 +29,14 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - Cache PWA incrémenté vers `nous-deux-v6-2`.
 
 
-## V6.2 correctif iPhone
+## V6.4 correctif iPhone
 - Safe areas iOS/Dynamic Island pour l'en-tête et le cadenas.
 - Zone tactile du cadenas agrandie à 48 px.
 - Import ND6 tolérant aux espaces et caractères invisibles du presse-papiers.
 - Diagnostic ND6 détaillé sans modifier les clés nd6.* ni les données existantes.
+
+
+## V6.4
+- Banque entièrement revue : 300 questions uniques et 300 défis uniques.
+- Suppression des déclinaisons artificielles des 100 premiers contenus.
+- Conservation des correctifs V6.3 (iPhone/ND6/suppression messages).

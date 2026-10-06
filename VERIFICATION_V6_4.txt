@@ -1,0 +1,5 @@
+Nous Deux V6.4
+Questions: 300 (uniques: 300)
+Défis: 300 (uniques: 300)
+Phrases artificielles détectées: 0
+Cache PWA: nous-deux-v6-4
