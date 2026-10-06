@@ -1,0 +1,6 @@
+Nous Deux V6.5.1
+- Migration ciblée des réponses [object Object]
+- Questions et Défis corrigés
+- Ma réponse enregistrée affichée séparément
+- Réponse partenaire affichée séparément
+- Clé et autres données inchangées
