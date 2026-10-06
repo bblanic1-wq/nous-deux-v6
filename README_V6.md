@@ -40,3 +40,12 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - Banque entièrement revue : 300 questions uniques et 300 défis uniques.
 - Suppression des déclinaisons artificielles des 100 premiers contenus.
 - Conservation des correctifs V6.3 (iPhone/ND6/suppression messages).
+
+
+## V6.5
+- Décodage Base64URL 100 % JavaScript, sans `atob()` : correctif Safari/iPhone.
+- Questions et défis : les réponses enregistrées restent visibles (`mine.text`) avec compatibilité anciennes réponses texte.
+- Nouveau paquet `NOUS-DEUX-ND65` compressé (gzip si disponible).
+- Synchronisation courte différentielle avec accusé logique : les changements non accusés sont renvoyés, pour éviter de perdre une modification si un paquet WhatsApp n'arrive pas.
+- Bouton « Sync complète » disponible en secours.
+- 300 questions et 300 défis originaux de V6.4 conservés.

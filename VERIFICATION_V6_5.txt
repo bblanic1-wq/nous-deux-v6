@@ -1,0 +1,6 @@
+Nous Deux V6.5
+300 questions uniques + 300 défis uniques conservés.
+Correctif affichage réponses Questions/Défis.
+Codec Base64URL sans atob/btoa pour le décodage ND65.
+Paquet court différentiel + compression gzip si disponible + mode complet de secours.
+Cache PWA: nous-deux-v6-5.
