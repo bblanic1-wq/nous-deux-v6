@@ -1,0 +1,7 @@
+V6.5.3
+- Sync handlers delegated/persistent
+- WebCrypto self-test
+- ND653 output, ND652 backward-compatible import
+- cache-busted JS/CSS/data
+- service worker cache v6-5-3
+- localStorage nd6.* preserved
