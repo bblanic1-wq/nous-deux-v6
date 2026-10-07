@@ -56,3 +56,11 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - IV inclus dans la charge utile : `ND652.<iv+ciphertext>`.
 - Import du paquet complet ou de la charge utile seule.
 - Diagnostic de création permanent.
+
+## V6.5.4
+- Paquet ND654 auto-diagnostique.
+- Empreinte courte de clé avant AES-GCM, sans exposer la clé.
+- Contrôle de longueur exacte du paquet.
+- Contrôle SHA-256 tronqué de la charge chiffrée.
+- Erreurs distinctes : clé différente / paquet tronqué / paquet modifié / échec AES.
+- Stockage `nd6.*` inchangé : données et appairage conservés.

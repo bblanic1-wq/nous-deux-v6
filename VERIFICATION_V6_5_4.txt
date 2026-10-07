@@ -1,0 +1,4 @@
+Nous Deux V6.5.4
+Syntaxe JavaScript vérifiée.
+ND654 = empreinte clé + longueur + empreinte paquet + AES-256-GCM.
+Données nd6.* conservées.
