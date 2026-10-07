@@ -1,0 +1,1 @@
+V6.5.2 : ND652 sans compression; import paquet complet/payload; diagnostic permanent; cache v6-5-2.

@@ -49,3 +49,10 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - Synchronisation courte différentielle avec accusé logique : les changements non accusés sont renvoyés, pour éviter de perdre une modification si un paquet WhatsApp n'arrive pas.
 - Bouton « Sync complète » disponible en secours.
 - 300 questions et 300 défis originaux de V6.4 conservés.
+
+
+## V6.5.2
+- ND652 AES-GCM sans compression navigateur.
+- IV inclus dans la charge utile : `ND652.<iv+ciphertext>`.
+- Import du paquet complet ou de la charge utile seule.
+- Diagnostic de création permanent.
