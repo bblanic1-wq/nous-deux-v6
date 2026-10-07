@@ -64,3 +64,12 @@ Chaque téléphone choisit son propre prénom/pseudo. Un téléphone crée la cl
 - Contrôle SHA-256 tronqué de la charge chiffrée.
 - Erreurs distinctes : clé différente / paquet tronqué / paquet modifié / échec AES.
 - Stockage `nd6.*` inchangé : données et appairage conservés.
+
+## V6.5.5 — fragments WhatsApp
+- ND654 reste le paquet chiffré et contrôlé.
+- Transport ND655F : découpage automatique en fragments d'environ 1800 caractères.
+- Chaque fragment possède un identifiant de paquet et une numérotation `n/total`.
+- Le récepteur mémorise localement les fragments reçus et indique la progression.
+- Fusion uniquement après réception de tous les fragments puis validation ND654 complète.
+- Un paquet ND654 complet peut toujours être importé directement.
+- Aucune modification de la clé ou des données `nd6.*`.

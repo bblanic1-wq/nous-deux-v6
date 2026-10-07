@@ -1,0 +1,6 @@
+Nous Deux V6.5.5
+- Syntaxe app.js vérifiée avec Node : OK
+- ND654 AES-GCM + contrôles conservé
+- ND655F fragmentation 1800 caractères
+- Réassemblage local avec progression
+- Stockage nd6.* et clé existante conservés
